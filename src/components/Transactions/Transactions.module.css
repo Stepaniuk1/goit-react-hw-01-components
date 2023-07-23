@@ -1,0 +1,26 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 498px;
+  border-collapse: collapse;
+  line-height: 3;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+thead tr {
+  background-color: #00bcd5;
+  color: #ffff;
+}
